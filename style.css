@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #0077cc;
+  color: white;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+.dark-mode {
+  background: #222;
+  color: #eee;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.faq-answer {
+  display: none;
+  margin-left: 15px;
+  color: #444;
+}
+
+.faq-question {
+  cursor: pointer;
+  color: #0077cc;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Interactive Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Event Handling & Interactive Elements</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <p id="clickMessage"></p>
+
+    <input type="text" id="hoverInput" placeholder="Hover over me">
+    <p id="hoverMessage"></p>
+  </section>
+
+  <!-- Part 2: Interactive Features -->
+  <section>
+    <h2>Part 2: Interactive Elements</h2>
+    
+    <!-- Light/Dark Mode -->
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+
+    <!-- Counter -->
+    <div class="counter">
+      <button id="decrease">-</button>
+      <span id="count">0</span>
+      <button id="increase">+</button>
+    </div>
+
+    <!-- FAQ (Collapsible) -->
+    <div class="faq">
+      <h3 class="faq-question">What is JavaScript?</h3>
+      <p class="faq-answer">JavaScript is a programming language used to add interactivity to websites.</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="myForm">
+      <label>Name:</label>
+      <input type="text" id="name"><span class="error" id="nameError"></span><br>
+
+      <label>Email:</label>
+      <input type="text" id="email"><span class="error" id="emailError"></span><br>
+
+      <label>Password:</label>
+      <input type="password" id="password"><span class="error" id="passwordError"></span><br>
+
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
